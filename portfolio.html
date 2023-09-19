@@ -5,34 +5,175 @@
     <include src="nav.html"></include>
 
     <main>
-      <div class="cv-margin-top cv-content">
-        <article class="cv-container cv-card cv-white cv-margin-bottom">
-          <h2 class="cv-text-grey cv-padding-16">
-            <ion-icon
-              name="folder-open"
-              class="cv-icon cv-margin-right cv-xxlarge cv-text-teal"
-            ></ion-icon>
-            <span class="cv-icon-text">Portfolio</span>
-          </h2>
+      <div class="main-content">
+        <article class="container cv card-4">
+          <h1>
+            <ion-icon name="folder-open" class="icon"></ion-icon>
+            <span class="icon-text">Portfolio</span>
+          </h1>
 
-          <section class="cv-container portfolio-item">
-            <img src="https://placehold.co/160x120/png" />
+          <ul class="item-list">
+            <li class="portfolio-item">
+              <img
+                src="/img/tictacscreenshot.png"
+                class="portfolio-item-thumb"
+                alt=""
+              />
 
-            <div>
-              <h3 class="cv-opacity cv-heading">Item 1</h3>
-              <a class="button" href="#popup2">Info</a>
-            </div>
+              <div class="portfolio-entry">
+                <h2>TicTac Frontend</h2>
+                <a class="modal-button" href="#popup1">Info</a>
+                <ion-icon name="logo-github" class="icon xxlarge"></ion-icon>
+                <span class="icon-text"
+                  ><a href="https://github.com/cave-bjornson/tictac-frontend"
+                    >Github</a
+                  ></span
+                >
+              </div>
 
-            <div id="popup2" class="overlay light">
-              <a class="cancel" href="#"></a>
-              <div class="popup">
-                <h2>What the what?</h2>
-                <div class="content">
-                  <p>Click outside the popup to close.</p>
+              <div id="popup1" class="modal-overlay light">
+                <a class="cancel" href="#"></a>
+                <div class="modal-popup">
+                  <h2>Tictac Frontend</h2>
+                  <div class="content">
+                    <img src="./img/tictacscreenshot.png" alt="" />
+                    <p>
+                      Ett projekt jag och en klasskompis gjorde på Consid i
+                      Sundsvall. Detta är en Android-app byggd i java, inte
+                      Kotlin.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </li>
+
+            <li class="portfolio-item">
+              <img
+                src="/img/spring-boot-ascii.png"
+                class="portfolio-item-thumb"
+                alt=""
+              />
+
+              <div class="portfolio-entry">
+                <h2>TicTac Backend</h2>
+                <a class="modal-button" href="#popup2">Info</a>
+                <ion-icon name="logo-github" class="icon xxlarge"></ion-icon>
+                <span class="icon-text"
+                  ><a href="https://github.com/cave-bjornson/tictac-backend"
+                    >Github</a
+                  ></span
+                >
+              </div>
+
+              <div id="popup2" class="modal-overlay light">
+                <a class="cancel" href="#"></a>
+                <div class="modal-popup">
+                  <h2>Tictac Frontend</h2>
+                  <div class="content">
+                    <img src="./img/spring-boot-ascii.png" alt="" />
+                    <p>
+                      Ett projekt jag och en klasskompis gjorde på Consid i
+                      Sundsvall. Detta är en REST-Service i form av en Spring
+                      Boot Applikation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="/img/taftea-cropped.png"
+                class="portfolio-item-thumb"
+                alt=""
+              />
+
+              <div class="portfolio-entry">
+                <h2>Täfteå-festivalen</h2>
+                <a class="modal-button" href="#popup3">Info</a>
+                <ion-icon name="logo-wordpress" class="icon xxlarge"></ion-icon>
+                <span class="icon-text">Wordpress-sida</span>
+              </div>
+
+              <div id="popup3" class="modal-overlay light">
+                <a class="cancel" href="#"></a>
+                <div class="modal-popup">
+                  <h2>Täfteå-festivalen</h2>
+                  <div class="content">
+                    <img src="img/taftea-cropped.png" alt="" />
+                    <p>
+                      Hemsida för den sista Täfteå-festivalen 2012. Wordpressida
+                      som inte finns kvar längre. Enda jag har kvar är banners,
+                      som inte är min design.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="/img/kreator-www.png"
+                class="portfolio-item-thumb"
+                alt=""
+              />
+
+              <div class="portfolio-entry">
+                <h2>Kreator</h2>
+                <a class="modal-button" href="#popup4">Info</a>
+                <ion-icon name="logo-wordpress" class="icon xxlarge"></ion-icon>
+                <span class="icon-text">Wordpress-sida</span>
+              </div>
+
+              <div id="popup4" class="modal-overlay light">
+                <a class="cancel" href="#"></a>
+                <div class="modal-popup">
+                  <h2>Kreator</h2>
+                  <div class="content">
+                    <img src="img/kreator-www.png" alt="" />
+                    <p>
+                      Hemsida för det före detta företaget Kreatoriet i Umeå.
+                      Wordpressida som inte finns kvar längre. Enda jag har kvar
+                      är designdokument och logotyper.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="/img/passain-thumb.png"
+                class="portfolio-item-thumb"
+                alt=""
+              />
+
+              <div class="portfolio-entry">
+                <h2>Passa in</h2>
+                <a class="modal-button" href="#popup5">Info</a>
+                <ion-icon name="videocam" class="icon xxlarge"></ion-icon>
+                <span class="icon-text">Animation</span>
+              </div>
+
+              <div id="popup5" class="modal-overlay light">
+                <a class="cancel" href="#"></a>
+                <div class="modal-popup">
+                  <h2>Passa in</h2>
+                  <div class="content">
+                    <video
+                      src="videos/Passain.mp4"
+                      poster="img/passain.png"
+                      width="640"
+                      height="512"
+                      controls
+                    ></video>
+
+                    <p>
+                      Animation från en kurs när jag gick på Umeå Konstskola.
+                      Gjord med dv-kamera, OH-film, spritpenna och plastfärger.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </article>
       </div>
     </main>

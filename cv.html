@@ -4,161 +4,106 @@
   <body class="cv-french-grey">
     <include src="nav.html"></include>
 
-    <!-- Page Container -->
     <main>
-      <div class="cv-content cv-margin-top">
-        <aside class="cv-white cv-text-grey cv-card-4 cv-margin-bottom">
-          <section class="cv-display-container">
-            <img
-              src="https://www.w3schools.com/w3images/avatar_hat.jpg"
-              style="width: 100%"
-              alt="Avatar"
-            />
-            <div class="cv-display-bottomleft cv-container cv-text-black">
-              <h2>Jane Do</h2>
-            </div>
+      <div class="main-content">
+        <aside class="card-4">
+          <section class="cv-item">
+            <include src="personal-info.html"></include>
           </section>
-          <section class="cv-container">
-            <p>
-              <ion-icon
-                name="briefcase"
-                class="cv-icon cv-margin-right cv-large cv-text-teal"
-              ></ion-icon>
-              <span class="cv-icon-text">Student</span>
-            </p>
-            <p>
-              <ion-icon
-                name="home"
-                class="cv-icon cv-margin-right cv-large cv-text-teal"
-              ></ion-icon>
-              <span class="cv-icon-text">Domsjö, SE</span>
-            </p>
-            <p>
-              <ion-icon
-                name="mail"
-                class="cv-icon cv-margin-right cv-large cv-text-teal"
-              ></ion-icon>
-              <span class="cv-icon-text"
-                ><a href="mailto:bjorn.agnemo@gmail.com"
-                  >bjorn.agnemo@gmail.com</a
-                ></span
-              >
-            </p>
-            <p>
-              <ion-icon
-                name="call"
-                class="cv-icon cv-margin-right cv-large cv-text-teal"
-              ></ion-icon>
-              <span class="cv-icon-text">+46703038338</span>
-            </p>
-            <hr />
 
-            <article id="skills">
-              <p class="cv-large">
-                <b>
-                  <ion-icon
-                    name="star"
-                    class="cv-icon cv-margin-right cv-text-teal"
-                  ></ion-icon>
-                  <span class="cv-icon-text">Färdigheter</span></b
-                >
-              </p>
-              <p>C#/.NET</p>
-              <p>ASP.NET</p>
-              <p>Java</p>
-              <p>Spring Boot</p>
-              <p>Python</p>
-              <p>C</p>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>LaTeX</p>
-              <p>Javascript</p>
-              <p>React</p>
-              <p>Linux</p>
-              <p>macOS</p>
-            </article>
-            <hr />
+          <article id="skills" class="container cv-item">
+            <h1>
+              <ion-icon
+                name="star"
+                class="icon cv-margin-right cv-text-teal"
+              ></ion-icon>
+              <span class="icon-text">Färdigheter</span>
+            </h1>
+            <ul>
+              <li>C#/.NET</li>
+              <li>ASP.NET</li>
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>Python</li>
+              <li>C</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>LaTeX</li>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>Linux</li>
+              <li>macOS</li>
+            </ul>
+          </article>
 
-            <article id="languages">
-              <p class="cv-large">
-                <b>
-                  <ion-icon
-                    name="globe"
-                    class="cv-icon cv-margin-right cv-text-teal"
-                  ></ion-icon>
-                  <span class="cv-icon-text">Språk</span></b
-                >
-              </p>
-              <section class="language">
-                <p>Svenska</p>
-                <div class="cv-light-grey cv-round-xlarge">
-                  <div
-                    class="cv-round-xlarge cv-cool-gray"
-                    style="height: 24px; width: 100%"
-                  ></div>
-                </div>
-              </section>
-              <section class="language">
-                <p>Engelska</p>
-                <div class="cv-light-grey cv-round-xlarge">
-                  <div
-                    class="cv-round-xlarge cv-cool-gray"
-                    style="height: 24px; width: 75%"
-                  ></div>
-                </div>
-              </section>
-              <section class="language">
-                <p>Tyska</p>
-                <div class="cv-light-grey cv-round-xlarge">
-                  <div
-                    class="cv-round-xlarge cv-cool-gray"
-                    style="height: 24px; width: 25%"
-                  ></div>
-                </div>
-              </section>
-            </article>
-            <hr />
+          <article id="languages" class="container cv-item">
+            <h1>
+              <ion-icon name="globe" class="icon cv-margin-right"></ion-icon>
+              <span class="icon-text">Språk</span>
+            </h1>
+            <section class="language">
+              <p>Svenska</p>
+              <div class="cv-light-grey cv-round-xlarge">
+                <div
+                  class="cv-round-xlarge cv-cool-gray"
+                  style="height: 24px; width: 100%"
+                ></div>
+              </div>
+            </section>
+            <section class="language">
+              <p>Engelska</p>
+              <div class="cv-light-grey cv-round-xlarge">
+                <div
+                  class="cv-round-xlarge cv-cool-gray"
+                  style="height: 24px; width: 75%"
+                ></div>
+              </div>
+            </section>
+            <section class="language">
+              <p>Tyska</p>
+              <div class="cv-light-grey cv-round-xlarge">
+                <div
+                  class="cv-round-xlarge cv-cool-gray"
+                  style="height: 24px; width: 25%"
+                ></div>
+              </div>
+            </section>
+          </article>
 
-            <article id="driving-licenses">
-              <p class="cv-large">
-                <b>
-                  <ion-icon
-                    name="car"
-                    class="cv-icon cv-margin-right cv-text-teal"
-                  ></ion-icon>
-                  <span class="cv-icon-text">Körkort</span></b
-                >
-              </p>
-              <p>Bil A</p>
-              <p>Truck AB</p>
-            </article>
-            <hr />
-          </section>
+          <article id="driving-licenses" class="container cv-item">
+            <h1>
+              <ion-icon
+                name="car"
+                class="icon cv-margin-right cv-text-teal"
+              ></ion-icon>
+              <span class="icon-text">Körkort</span>
+            </h1>
+            <ul>
+              <li>Bil A</li>
+              <li>Truck AB</li>
+            </ul>
+          </article>
         </aside>
 
         <section class="right-column">
-          <article class="cv-container cv-card cv-white cv-margin-bottom">
-            <h2 class="cv-text-grey cv-padding-16">
-              <ion-icon
-                name="briefcase"
-                class="cv-icon cv-margin-right cv-xxlarge cv-text-teal"
-              ></ion-icon>
-              <span class="cv-icon-text">Arbetslivserfarenheter</span>
-            </h2>
-            <section class="cv-container">
-              <h5 class="cv-opacity cv-heading">
+          <article class="container cv card-4">
+            <h1>
+              <ion-icon name="briefcase" class="icon"></ion-icon>
+              <span class="icon-text">Arbetslivserfarenheter</span>
+            </h1>
+            <section class="cv-item">
+              <h2 class="cv-opacity cv-heading">
                 Laborant / Domsjö Fabriker AB, Domsjö
-              </h5>
+              </h2>
               <ul>
                 <li>Avdelning laboratorium/miljö.</li>
                 <li>Kvalitetskontroll och miljöanalyser.</li>
               </ul>
             </section>
-            <hr />
-            <section class="cv-container">
-              <h5 class="cv-opacity cv-heading">
+            <section class="cv-item">
+              <h2 class="cv-opacity cv-heading">
                 It-tekniker/Webbutvecklare - Kreatoriet AB, Umeå
-              </h5>
+              </h2>
               <ul>
                 <li>Support för coworking space.</li>
                 <li>
@@ -167,52 +112,45 @@
                 <li>Underhåll av företagets faktureringstjänst (Django).</li>
               </ul>
             </section>
-            <hr />
-            <section class="cv-container">
-              <h5 class="cv-opacity cv-heading">
+            <section class="cv-item">
+              <h2 class="cv-opacity cv-heading">
                 Systemtekniker - Norrlands Signalbataljon, Boden
-              </h5>
+              </h2>
               <p>
                 Reparation och underhåll av tele/radiomaster, elverk och
                 elinstallationer.
               </p>
             </section>
-            <hr />
           </article>
 
-          <article class="cv-container cv-card cv-white">
-            <h2 class="cv-text-grey cv-padding-16">
+          <article class="container cv card-4">
+            <h1 class="cv-text-grey cv-padding-16">
               <ion-icon
                 name="school"
-                class="cv-icon cv-margin-right cv-xxlarge cv-text-teal"
+                class="icon cv-margin-right cv-xxlarge cv-text-teal"
               ></ion-icon>
-              <span class="cv-icon-text">Utbildning</span>
-            </h2>
-            <section class="cv-container">
-              <h5 class="cv-opacity cv-heading">Edugrade, Örnsköldsvik</h5>
+              <span class="icon-text">Utbildning</span>
+            </h1>
+            <section class="cv-item">
+              <h2>Edugrade, Örnsköldsvik</h2>
               <p>Systemutvecklare .Net med AI-kompetens</p>
             </section>
-            <hr />
-            <section class="cv-container">
-              <h5 class="cv-opacity cv-heading">Yrkesakademin, Sundsvall</h5>
+            <section class="cv-item">
+              <h2>Yrkesakademin, Sundsvall</h2>
               <p>Systemutvecklare Java</p>
             </section>
-            <hr />
-            <section class="cv-container">
-              <h5 class="cv-opacity cv-heading">Umeå Universitet</h5>
+            <section class="cv-item">
+              <h2>Umeå Universitet</h2>
               <p>Kurser i datavetenskap</p>
             </section>
-            <hr />
-            <section class="cv-container">
-              <h5 class="cv-opacity cv-heading">Umeå Konstskola, Umeå</h5>
+            <section class="cv-item">
+              <h2>Umeå Konstskola, Umeå</h2>
               <p>Grundläggande konstnärsutbildning</p>
             </section>
-            <hr />
-            <section class="cv-container">
-              <h5 class="cv-opacity cv-heading">Nolaskolan, Örnsköldsvik</h5>
+            <section class="cv-item">
+              <h2>Nolaskolan, Örnsköldsvik</h2>
               <p>Naturvetenskapligt program</p>
             </section>
-            <hr />
           </article>
         </section>
       </div>
