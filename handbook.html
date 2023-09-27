@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <include src="head.html"></include>
+  <body class="cv-french-grey">
+    <include src="nav.html"></include>
+
+    <main>
+      <div class="main-content">
+        <section class="container cv card-4">
+          <h1 class="center">
+            <ion-icon name="document" class="icon"></ion-icon>
+            <span class="icon-text">Teorihandbok</span>
+          </h1>
+
+          <h1>Vad är HTML och vad används det till?</h1>
+          <h2>Beskriv också kort historiken för HTML</h2>
+          <p>
+            HTML betyder Hyper Text Markup Language. Markup språk sätter märken
+            på element i en text. Dessa märken kan styra hur någonting ser ut
+            eller vad det används till. Det här dokumentet är t ex skrivet i
+            Markdown och för att beskriva att något är en rubrik sätter man x
+            antal # framför rubriken.
+          </p>
+          <p>
+            HTML är ett märk-språk konstruerat för den tidiga webben. Hypertext
+            var redan ett begrepp, digitala dokument som innehöll navigerbara
+            referenser till andra dokument.
+          </p>
+          <p>
+            Tim Berners Lee som uppfann WWW var även hjärnan bakom HTML. Han
+            började med projektet 1989 och 1993 var HTML 1.0 färdigt. Genom åren
+            har flera version av HTML passerat, med fler och fler funktioner och
+            revideringar. 1999 kom version 4.01 som blev långlivad Idag arbetar
+            vi i HTML5 som kom 2014.
+          </p>
+          <h1>Vad är CSS och vad används det till?</h1>
+          <h2>Beskriv också kort historiken för CSS</h2>
+          <p>
+            CSS står för Cascading Style Sheets. Ett stylesheet beskriver hur
+            någonting i ett HTML-dokument ska se ut. Cascading anger att det
+            “faller neråt”, om en css fil innehåller en regel för hur ett
+            html-element ska se ut t ex så här:
+          </p>
+          <pre><code>h1 {
+  color: teal;
+  margin-left: 10px;
+}</code></pre>
+          <p>
+            och om det i nästa steg <code>&lt;style&gt;</code> taggar finns en
+            regel för samma element tas dessa nya värden med när sidan ska
+            renderas.
+          </p>
+          <pre><code>&lt;style&gt;
+h1 {
+  color: cyan;
+}
+&lt;/style&gt;</code></pre>
+          <p>Samma gäller sista steget som är inline-styling inne i en tagg.</p>
+          <pre><code>&lt;h1 style=&quot;color:blue;text-align:center;&quot;&gt;This is a heading&lt;/h1&gt;</code></pre>
+          <p>
+            Om inga css direktiv finns så gäller default inställningarna för
+            webb-läsaren.
+          </p>
+          <p>
+            CSS kom till 1994 efter ett förslag från Håkon Wium Lie som då
+            jobbade tillsammans med Tim Berners-Lee på CERN. Det tog till 1996
+            innan en kommersiell browser stödde CSS. Det var Microsoft som var
+            först ute med Internet Explorer 3. Netscape var näst på tur med
+            Navigator 4.0 men stödde färre delar av css specifikationen än
+            internet explorer, som i sin tur inte heller hade stöd för allt. CSS
+            led överhuvudtaget länge av att många webbläsare inte hanterade
+            specifikationen på samma sätt utan att saker kunde se annorlunda ut
+            beroende på vilken browser och vilken version av programmet som var
+            installerad. Idag ser situationen mycket bättre ut men CSS är
+            ständigt under utveckling.
+          </p>
+          <h1>Vad är JavaScript och vad används det till?</h1>
+          <p>
+            Javascript är ett programmeringsspråk som gör webbsidor dynamiska.
+            En ren html sida är statisk och kan inte ändras efter att den lästs
+            in i webbläsaren utan att ladda om sidan. CSS styr hur innehållet
+            ska se ut i webbläsaren. Javascript kom till när Netscape ville
+            bygga in ett scriptspråk i sin webbläsare Navigator. Först ville de
+            implementera ett språk som heter <em>Scheme</em> men snart gav de
+            programmeraren Brendan Eich, som hade den uppgiften, att skriva ett
+            nytt programmeringsspråk istället. Det fick namnet Javascriptet utan
+            att ha någon koppling till programmeringsspråket Java. Javascript
+            möjliggör att webbsidor kan bli lika dynamiska som en applikation
+            med GUI på skrivbordet.
+          </p>
+          <h1>Vad är ECMA-script och hur hänger det ihop med JavaScript?</h1>
+          <p>
+            ECMA-script är en standard för skriptspråk för att åstadkomma en
+            bättre interoperatibilitet mellan webbläsare så att de tolkar
+            javascript kod på samma sätt. Javascript är därför numera en
+            implementation av ECMA-script.
+          </p>
+          <h1>
+            Förklara översiktligt vilket ansvar HTML, CSS och JavaScript har i
+            teknikstacken inom frontend på webben.
+          </h1>
+          <dl>
+            <dt>HTML</dt>
+            <dd>
+              Ansvarar för sidans innehåll och semantisk beskrivning av
+              innehållet, alltså information som beskriver vilken typ av
+              innehåll. T ex om ett textstycke är ett stycke eller rubrik.
+            </dd>
+            <dt>CSS</dt>
+            <dd>
+              Ansvarar för hur innehållet på sidan ska se ut vad gäller form,
+              färg, layout och animationer.
+            </dd>
+            <dt>Javascript</dt>
+            <dd>
+              Ansvarar för att göra innehållet på sidan interaktivt och
+              dynamiskt.
+            </dd>
+          </dl>
+          <h1>Vad menas med ett JavaScript-ramverk?</h1>
+          <h2>
+            Vad tillför det till ett projekt jämfört med att bara använda ren
+            JavaScript?
+          </h2>
+          <p>
+            Ett javascript ramverk innehåller färdiga funktioner och komponenter
+            för att bygga en webbapplikation. Det handlar om allt från grafiska
+            komponenter för att bygga ett UX till funktioner för input-hantering
+            och lagring av data. Det tillför att man inte behöver uppfinna
+            hjulet på nytt varje gång man ska skapa en ny applikation.
+          </p>
+          <h1>Lista tre vanligt förekommande JavaScript-ramverk.</h1>
+          <h2>För varje ramverk ska du sedan kort beskriva det.</h2>
+          <h3>
+            Efter din lista med de tre ramverken ska du översiktligt förklara
+            vad som skiljer dessa åt.
+          </h3>
+          <dl>
+            <dt>Angular</dt>
+            <dd>
+              Angular är ett ramverk skapat av ett team på Google och fick sin
+              första release 2016. Angular-komponenter skrivs i
+              <em>Typescript</em> och sen skriver man en html sida med särskilda
+              taggar för att inkorporera komponenterna.
+            </dd>
+            <dt>React</dt>
+            <dd>
+              React är skapat av Facebook och fick sin första release 2013.
+              React är tekniskt sett inte ett ramverk utan ett bibliotek för
+              UI-komponenter. React används tillsammans med ett annat bibliotek,
+              ReactDOM, för att bygga hela webbappar. Tillsammans blir de
+              ramverket React. React utökar javascript med HTML-liknande taggar,
+              så kallade <em>JSX</em>-taggar.
+            </dd>
+            <dt>Svelte</dt>
+            <dd>
+              Svelte utökar HTML, CSS och Javascript. Svelte är lite annorlunda
+              jämfört med andra ramverk eftersom den gör det mesta jobbet i en
+              kompilator och de övriga ramverken sköter det mesta jobbet i kod
+              som körs i webbläsaren.
+            </dd>
+          </dl>
+          <h1>
+            Vad är tillgänglighetsanpassning av webbplatser och varför är det
+            viktigt?
+          </h1>
+          <p>
+            Tillgänglighetsanpassning är till för att en webbsida ska kunna
+            användas av alla oavsett syn, hörsel och andra faktorer. Det är
+            viktigt dels ur demokratisynpunkt när det kommer till
+            myndighetssidor men även ur kommersiell synpunkt eftersom man inte
+            exkluderar några potentiella kunder. Anpassningarna kan bland annat
+            vara att strukturera texten så att den är lätt att läsa upp av en
+            röst eller göra en tydlig och logisk navigation som kan hanteras
+            lätt av andra verktyg än bara tangentbord och mus.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <include src="footer.html"></include>
+    <include src="script.html"></include>
+  </body>
+</html>
