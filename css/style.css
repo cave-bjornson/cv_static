@@ -180,6 +180,11 @@ nav a {
   text-decoration: none;
 }
 
+progress {
+  accent-color: var(--midnight-green);
+  width: 100%;
+}
+
 section.right-column {
   display: flex;
   flex-basis: 66.66%;
